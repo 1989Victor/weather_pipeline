@@ -1,0 +1,5 @@
+awswrangler==3.12.0
+python-dotenv==1.1.0
+requests==2.32.4
+boto3==1.38.33
+pandas==2.3.0
