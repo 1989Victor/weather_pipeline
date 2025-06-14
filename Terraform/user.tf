@@ -35,8 +35,8 @@ resource "aws_iam_user_policy" "weather_policy" {
       },
       {
         Action = [
-		        "s3:PutObject"
-        	],
+	  "s3:PutObject"
+        ],
         Effect   = "Allow",
         Resource = "arn:aws:s3:::victor-job-2025/*"
     }
