@@ -16,7 +16,6 @@ session = boto3.Session(
 # extraction for API
 API_KEY = Variable.get('API_KEY')
 
-
 def weather_api_extract():
     Base_url = f"https://api.weatherbit.io/v2.0/current?lat=7.422&lon=3.957&key={API_KEY}"
     response = requests.get(Base_url)
